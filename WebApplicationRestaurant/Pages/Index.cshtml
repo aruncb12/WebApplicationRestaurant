@@ -1,0 +1,201 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<header>
+
+    <style>
+        #intro {
+            background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-829462,resizemode-1,msid-82666514/industry/services/hotels-/-restaurants/staggered-lockdowns-start-to-bite-battered-restaurants.jpg");
+            height: 100vh;
+            margin-bottom: 20px;
+        }
+
+        .navbar .nav-link {
+            color: #fff !important;
+        }
+    </style>
+
+
+</header>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" style="height:80vh">
+
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="https://smallbizclub.com/wp-content/uploads/2015/12/4-Things-You-Should-Know-About-Opening-a-Restaurant.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://media-cdn.tripadvisor.com/media/photo-s/15/90/21/cb/sankalpbsp.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://sulaindianrestaurant.com/wp-content/uploads/2021/01/indian-food-vancouver-1.jpg" alt="Third slide">
+        </div>
+    </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+</a>
+  </div>
+<div class="row" style="margin-top:25px">
+
+
+
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://www.thestatesman.com/wp-content/uploads/2017/12/south-indian.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">SouthIndianMeal</h5>
+                <p class="card-text">Choose healthy.Live long.</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">SouthIndianMeal</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://i0.wp.com/foodshubb.com/wp-content/uploads/2021/06/North-Indian-Food.jpg?fit=600%2C500&ssl=1" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">NorthIndianMeal</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">NorthIndianMeal</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://www.chingssecret.com/public/uploads/blogs/1582286855_1_bfi_im.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">ChineseFood</h5>
+                <p class="card-text">Feelthe food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">ChineseFood </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://www.englishclub.com/images/vocabulary/food/indian/indian-food-1024.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">IndianFastFood</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">IndianFastFood</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://thumbor.thedailymeal.com/mvheywV4bj1bxh9KZ2X3ChTgboQ=/870x565/filters:focal(1091x584:1092x585)/https://www.thedailymeal.com/sites/default/files/2020/05/07/shutterstock_225746563.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Pizza</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">Pizza</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://www.bakingbusiness.com/ext/resources/2020/5/BKAtHome_Lead.jpg?t=1588594539&width=1080" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Burgur</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">Burgur</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://i.ytimg.com/vi/Qag_s1dwyyQ/maxresdefault.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Gobi Manchurian</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">Pizza!!</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://jedzenienaszybko.pl/images/site/343877ece1f10006f6d2170647faa3fc.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Chickan65</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">Chickan65</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://assets.gqindia.com/photos/625e4dacfcfaab5b0ecc5ee0/master/pass/vada-pav%20(1).jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">VadaPav</h5>
+                <p class="card-text">Feel the  food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">VadaPav</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://www.indianveggiedelight.com/wp-content/uploads/2017/03/girmit.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Girmit</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">Girmit</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://thumbor.thedailymeal.com/mvheywV4bj1bxh9KZ2X3ChTgboQ=/870x565/filters:focal(1091x584:1092x585)/https://www.thedailymeal.com/sites/default/files/2020/05/07/shutterstock_225746563.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Pizzas</h5>
+                <p class="card-text">Feel the food</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">Pizza!!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="https://media.istockphoto.com/photos/spaghetti-with-meatballs-and-tomato-sauce-on-a-stone-background-picture-id1370310074?k=20&m=1370310074&s=612x612&w=0&h=CKLKkCSMvR3A5UFKZkyp9GakYzx5uspLvRI54w2Gf50=" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Italian</h5>
+                <p class="card-text"> Italian cooking</p>
+                <a asp-action="Index" asp-area="Menu" asp-controller="" class="btn btn-primary" role="button" aria-pressed="true">Explore Italian!!</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ </div>
+ </div>
+
+</div>
+</div>
+<div style="align-content:center ; height:60vh; background-color:cornflowerblue; padding:100px" id="#about">
+    <h1 style="text-align:center; color:white"> About US</h1>
+    <hr style="height:10px;color:white; border-top:5px solid">
+    <p style="color:white; text-align:center; justify-content:center">
+        A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.
+        <br>
+        Indian cuisine consists of a variety of regional and traditional cuisines native to India. Given the diversity in soil, climate, culture, ethnic groups, and occupations, these cuisines vary substantially and use locally available spices, herbs, vegetables, and fruits.
+
+        Indian food is also heavily influenced by religion, in particular Hinduism and Islam, cultural choices and traditions.
+
+        Historical events such as invasions, trade relations, and colonialism have played a role in introducing certain foods to this country. The Columbian discovery of the New World brought a number of new vegetables and fruit to India. A number of these such as potatoes, tomatoes, chillies, peanuts, and guava have become staples in many regions of India.
+
+        Indian cuisine has shaped the history of international relations;
+    </p>
+</div>
+
